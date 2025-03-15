@@ -9,7 +9,7 @@ class FavoritesPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("Favorites"),
+        title: Text("Favorite Movies"),
       ),
       body: favoriteMovies.isEmpty
           ? Center(child: Text("No favorite movies added yet."))
